@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 :root {
-    --color-primary: #006241;
-    --color-secondary: #d50032;
+    --color-primary: #d4e9e2;
+    --color-secondary: #d4e9e2;
     --color-extra: #d4e9e2;
 }
 
@@ -36,7 +36,7 @@ img {
 }
 
 section a {
-    color: white;
+    color: black;
 }
 
 /* Navbar */
@@ -48,6 +48,8 @@ section a {
     padding: 20px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
+    margin-bottom: 20px;
+
 }
 
 .navbar-container {
@@ -206,12 +208,12 @@ section a {
 }
 
 .btn-light-outline {
-    border-color: #fff;
-    color: #fff;
+    border-color: #000;
+    color: #000;
 } 
 .btn-dark {
     background-color: black;
-    color: #fff;
+    color: #d4e9e2;
 }
 
 .btn-dark:hover {
@@ -222,12 +224,12 @@ section a {
 
 .bg-parimary {
     background-color: var(--color-primary);
-    color: #fff;
+    color: #000;
 }
 
 .bg-secondary {
     background-color: var(--color-secondary);
-    color: #fff;
+    color: #000;
 }
 
 .bg-extra {
